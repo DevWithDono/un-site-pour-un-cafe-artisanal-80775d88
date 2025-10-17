@@ -1,0 +1,12 @@
+/* Styles personnalisés pour compléter TailwindCSS */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Ajout d'une police personnalisée si nécessaire */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Smooth scrolling pour les ancres */
+html {
+    scroll-behavior: smooth;
+}
