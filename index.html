@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Artisanal Local</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-amber-900 text-amber-50 p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Café Artisanal Local</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#accueil" class="hover:text-amber-200">Accueil</a></li>
+                    <li><a href="#menu" class="hover:text-amber-200">Menu</a></li>
+                    <li><a href="#a-propos" class="hover:text-amber-200">À Propos</a></li>
+                    <li><a href="#contact" class="hover:text-amber-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="py-16 bg-amber-100 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Bienvenue dans notre café artisanal</h2>
+            <p class="text-lg mb-6">Découvrez des saveurs uniques et un cadre chaleureux.</p>
+            <button id="btn-menu" class="bg-amber-700 text-amber-50 px-6 py-2 rounded-lg hover:bg-amber-800 transition duration-300">Voir le Menu</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Notre Menu</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-amber-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Espresso</h3>
+                    <p class="text-gray-600">Un café intense et corsé.</p>
+                    <p class="text-amber-700 font-bold mt-2">3.50€</p>
+                </div>
+                <div class="bg-amber-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Cappuccino</h3>
+                    <p class="text-gray-600">Équilibré avec une mousse onctueuse.</p>
+                    <p class="text-amber-700 font-bold mt-2">4.00€</p>
+                </div>
+                <div class="bg-amber-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Latte</h3>
+                    <p class="text-gray-600">Doux et crémeux, parfait pour se détendre.</p>
+                    <p class="text-amber-700 font-bold mt-2">4.50€</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="a-propos" class="py-16 bg-amber-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">À Propos de Nous</h2>
+            <p class="text-lg max-w-2xl mx-auto">Nous sommes passionnés par le café de qualité, torréfié localement pour vous offrir une expérience authentique.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contactez-nous</h2>
+            <p class="text-lg mb-4">Adresse : 123 Rue du Café, Ville</p>
+            <p class="text-lg mb-4">Téléphone : +33 1 23 45 67 89</p>
+            <p class="text-lg">Email : contact@cafeartisanal.fr</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-amber-900 text-amber-50 p-4 text-center">
+        <p>&copy; 2023 Café Artisanal Local. Tous droits réservés.</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
